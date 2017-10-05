@@ -7,7 +7,7 @@ install:
 
 before_script:
   - autopep8 -ir *
-  - flake8 --max-complexity=8 --exclude=*.txt,*.md,*.pyc *
+  - flake8 --max-complexity=8 --exclude=*.txt,*.md,*.pyc,LICENSE *
 
 script:
    - python TestEdad.py
