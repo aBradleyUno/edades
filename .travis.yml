@@ -10,5 +10,5 @@ before_script:
   - flake8 --max-complexity=8 --exclude=*.txt,*.md,*.pyc,LICENSE *
 
 script:
-   - python TestEdad.py
-   - coverage run --branch TestEdad.py
+   - python testEdad.py
+   - coverage run --branch testEdad.py
